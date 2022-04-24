@@ -19,12 +19,13 @@ h1 {
     margin: 0;
     padding: 10px 0;
     color: #00539F;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .4);
     border: 16px ridge rgba(38, 121, 178, .9);;
     text-decoration:  underline #252A34;
 }
 
-img {
+img,video {
+  width:1100px;
   display: block;
   margin: 0 auto;
   border: 8px  ridge rgba(38, 121, 178, .7);;
@@ -34,8 +35,10 @@ strong {
 	color: #1F3463;
     font-weight: bolder;
 	}
-#sum,#para1,#para2,#para3,#src{
+
+#sum,#para1,#para2,#para3,#para4,#src{
     font-size: 30px;
     text-decoration: underline #FF3028;
     color:#00539F;
+    text-shadow: 1px 1px 1px #003B71;
 }
